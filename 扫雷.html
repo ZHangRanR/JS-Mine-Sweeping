@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="扫雷.css">
+    <script src="./tool.js"></script>
+    <title>扫雷</title>
+</head>
+
+<body>
+    <!--  
+        模式: 简单(9*9)    普通(18*18)   困难(27*27)
+     -->
+    <div class="wrapper">
+        <div class="nav">
+            <div class="mode">
+                选择模式:
+                <select name="modeList">
+                    <option value="1">简单</option>
+                    <option value="2">普通</option>
+                    <option value="3">困难</option>
+                </select>
+            </div>
+            <div class="score">
+                <span>得分:</span>
+                <span>0</span>
+            </div>
+        </div>
+        <ul class="itemList">
+        </ul>
+    </div>
+
+
+    <script src="扫雷.js"></script>
+</body>
+
+</html>
